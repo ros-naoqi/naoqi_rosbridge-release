@@ -1,6 +1,7 @@
 # CMake file that uses catkin
-find_package(catkin COMPONENTS cv_bridge diagnostic_msgs geometry_msgs image_transport
-  kdl_parser naoqi_bridge_msgs naoqi_libqi naoqi_libqicore rosbag_storage rosgraph_msgs
+find_package(catkin COMPONENTS cv_bridge diagnostic_msgs diagnostic_updater
+  geometry_msgs image_transport kdl_parser naoqi_bridge_msgs naoqi_libqi
+  naoqi_libqicore robot_state_publisher rosbag_storage rosgraph_msgs
   sensor_msgs tf2_geometry_msgs tf2_msgs tf2_ros
 )
 find_package(OpenCV)

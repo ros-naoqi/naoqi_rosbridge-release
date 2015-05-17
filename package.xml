@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>naoqi_rosbridge</name>
-  <version>0.0.3</version>
+  <version>0.0.4</version>
   <description>Bridge between Aldebaran's NAOqiOS and ROS</description>
 
   <author>Karsten Knese</author>
@@ -11,6 +11,7 @@
   <build_depend>boost</build_depend>
   <build_depend>cv_bridge</build_depend>
   <build_depend>diagnostic_msgs</build_depend>
+  <build_depend>diagnostic_updater</build_depend>
   <build_depend>geometry_msgs</build_depend>
   <build_depend>image_transport</build_depend>
   <build_depend>kdl_parser</build_depend>
@@ -18,6 +19,7 @@
   <build_depend>naoqi_libqi</build_depend>
   <build_depend>naoqi_libqicore</build_depend>
   <build_depend>orocos_kdl</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
   <build_depend>rosbag_storage</build_depend>
   <build_depend>rosgraph_msgs</build_depend>
   <build_depend>sensor_msgs</build_depend>
@@ -35,6 +37,7 @@
   <run_depend>naoqi_libqi</run_depend>
   <run_depend>naoqi_libqicore</run_depend>
   <run_depend>orocos_kdl</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
   <run_depend>rosbag_storage</run_depend>
   <run_depend>tf2_ros</run_depend>
 </package>
