@@ -19,5 +19,5 @@ tracks:
     release_tag: :{version}
     ros_distro: indigo
     vcs_type: git
-    vcs_uri: https://github.com/vrabaud/alrosbridge.git
+    vcs_uri: https://github.com/ros-naoqi/alrosbridge.git
     version: :{auto}
