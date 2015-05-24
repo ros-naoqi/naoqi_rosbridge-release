@@ -20,8 +20,13 @@
 #include <qi/anymodule.hpp>
 #include <alrosbridge/alrosbridge.hpp>
 
+#include "ros_env.hpp"
+
 int main(int argc, char** argv)
 {
+  /* adjust the SDK prefix in case you compiled via catkin*/
+  alros::ros_env::adjustSDKPrefix();
+
   qi::ApplicationSession app(argc, argv);
   app.start();
   //app.session()->loadService( "alros.BridgeService" );
