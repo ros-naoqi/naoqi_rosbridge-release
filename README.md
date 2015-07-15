@@ -1,3 +1,24 @@
+## naoqi_rosbridge (jade) - 0.1.2-0
+
+The packages in the `naoqi_rosbridge` repository were released into the `jade` distro by running `/usr/bin/bloom-release --rosdistro jade --track jade naoqi_rosbridge` on `Wed, 15 Jul 2015 14:07:23 -0000`
+
+The `naoqi_rosbridge` package was released.
+
+Version of package(s) in repository `naoqi_rosbridge`:
+- upstream repository: https://github.com/ros-naoqi/alrosbridge.git
+- release repository: https://github.com/ros-naoqi/naoqi_rosbridge-release.git
+- rosdistro version: `0.1.1-0`
+- old version: `0.1.1-0`
+- new version: `0.1.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## naoqi_rosbridge (indigo) - 0.1.2-0
 
 The packages in the `naoqi_rosbridge` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo naoqi_rosbridge` on `Wed, 15 Jul 2015 14:05:11 -0000`
